@@ -7,5 +7,5 @@
 
     addJS();
     console.log('test.js');
-
+    tcavTrnsTarget.placeOrder();
 })();
