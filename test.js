@@ -1,15 +1,11 @@
-/*
-Content-Type: application/javascript
-*/
 (function () {
-    console.log('test.js');
 
-    var ajs = function addJS() {
+    function addJS() {
         console.log('addJS already called!');
         tcavTrnsTarget.placeOrder();
     }
 
-    return {
-        test: ajs
-    }
+    addJS();
+    console.log('test.js');
+
 })();
