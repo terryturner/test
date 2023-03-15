@@ -1,5 +1,5 @@
 /*
-Content-Type: text/javascript
+Content-Type: application/javascript
 */
 (function () {
     console.log('test.js');
