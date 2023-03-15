@@ -1,8 +1,12 @@
 (function () {
     console.log('test.js');
-    function addJS() {
+
+    var ajs = function addJS() {
         console.log('addJS already called!');
+        tcavTrnsTarget.placeOrder();
     }
-    addJS();
-    tcavTrnsTarget.placeOrder();
+
+    return {
+        test: ajs
+    }
 })();
