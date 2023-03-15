@@ -8,4 +8,9 @@
     addJS();
     console.log('test.js');
     tcavTrnsTarget.placeOrder();
+    
+    if (typeof (window as any).myCallbackFunction === 'function') {
+      console.log('js trigger myCallbackFunction');
+      (window as any).myCallbackFunction();
+    }
 })();
