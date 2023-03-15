@@ -1,6 +1,6 @@
 /*
-    Content-Type: text/javascript
-    */
+Content-Type: text/javascript
+*/
 (function () {
     console.log('test.js');
 
